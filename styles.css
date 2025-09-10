@@ -28,7 +28,7 @@ section{
 .card {
     height: 400px;
     width: 300px;
-    /* background-color: rgb(0, 255, 115); */
+    background-color: rgb(190, 228, 207);
     border-radius: 50px;
 }
 
