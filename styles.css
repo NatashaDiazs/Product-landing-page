@@ -11,10 +11,25 @@ header {
 
 section{
     min-height: 100vh;
+    text-align: center;
 }
 .container{
     background-color: rgb(104, 104, 114);
     display: grid;
+}
+.modelos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 30px;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(0, 255, 115);
+    border-radius: 50px;
 }
 
 footer {
