@@ -30,8 +30,12 @@ section{
     width: 300px;
     background-color: rgb(190, 228, 207);
     border-radius: 50px;
-}
 
+}#auto {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
 footer {
     height: 200px;
     width: 100%;
