@@ -2,13 +2,28 @@
     box-sizing: border-box;
     margin: auto;
 }
+/* --background-color: var(); */
 
 header {
+    padding-top: 8px;
+    display: flex;
     height: 60px;
     width: 100%;
     background-color: rgb(0, 0, 0);
-    color: white;
-     
+}
+
+#logo {
+    justify-content: flex-start;
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    align-items: center;
+    text-decoration: none;
+    color: white;   
+    list-style-type: none;
+    justify-content: space-between;
 }
 
 section{
