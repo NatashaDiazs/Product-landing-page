@@ -5,41 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libertinus+Serif+Display&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <body>
-    <header>
+    <header id="header">
         <div class="">
             <img src="logo.svg" alt="logo" id="logo">
         </div>
             <nav class="nav-bar">
                 <ul>
                     <li>
-                         <a href="" class="nav">Inicio</a>
+                         <a href="" class="nav-link">Inicio</a>
                     </li>
                     <li>
-                        <a href="#modelos" class="nav">Modelos</a>
+                        <a href="#modelos" class="nav-link">Modelos</a>
                     </li>
                     <li>
-                        <a href="#compra" class="nav">Compra</a>
+                        <a href="#compra" class="nav-link">Compra</a>
                     </li>
                      <li>
-                        <a href="#about" class="nav">About Us</a>
+                        <a href="#about" class="nav-link">About Us</a>
                     </li>
                 </ul>
             </nav>
-        <button>Ingresar</button>
+            <div class="formulario">
+                <form action=""></form>
+                 <label for="email"> Correo electrónico </label>
+                 <input type="email" name="email" id="email" required/>
+                 <button class="registro" type="submit">Registrarse</button>
+            </div>
+       
     </header> 
     <section id="inicio">
         <div class="glass">
             <h1> Your New Car</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit fringilla in, nullam etiam ultricies tortor eleifend integer augue dis, primis ac nascetur vivamus nisl ridiculus iaculis faucibus. Proin at lobortis posuere eros neque sed ligula laoreet aliquam convallis natoque, nostra mauris vulputate integer vitae vel tristique conubia turpis facilisi, est velit mi vivamus suspendisse dapibus semper diam urna auctor. </p>
             <div class="botones">
-                <button>Get Started</button>
-                <button>Continue</button>
+                <button type="submit" id="segundo">Started</button>
+                <button type="button" id="segundo">Continue</button>
             </div>
-            <video src=""></video>
-        </div>
-    </section>
+            <iframe src="https://www.youtube.com/embed/BVwhUKufpOM?si=_dB_JdteWkgjpOdy&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
+        </section>
     <section id="modelos">
         <h2>Modelos</h2>
         <div class="modelos">
