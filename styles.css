@@ -98,7 +98,7 @@ h1 {
 p {
     color:white;
     padding: 30px 35px;
-    font-size: 
+    font-size:medium;
 }
 
 .botones {
@@ -139,8 +139,6 @@ iframe {
     color: black;
     transition: 0.5s;
 } 
-
-
 
 
 .modelos {
