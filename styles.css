@@ -30,18 +30,18 @@ header {
 }
 nav {
     width: 40%;
-    justify-content: center;
 }
 
 ul {
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 15px;
 }
 
 li {
-    margin: 40px;
+    margin: 40px 10px;
 }
 
 nav a, label{
@@ -55,34 +55,55 @@ nav a:hover {
     transition: 0.5s;
 }
 
-.formulario {
-   
-}
-
 form {
-    height: 90%;
-    width: 30%;
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    gap: 30px;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 input {
-    height: 27px;
+    height: 37px;
     width: 200px;
-    border-radius: 7px;
-    border: none;
+    border-radius: 30px;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
 }
 
 input, .registro {
     margin: 25px 0;
 }
 
+/* estos son los botones, configuracion */
 
+.registro, #segundo {
+    height: 40px;
+    width: 130px;   
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+}
 
+.registro {
+    background-color: var(--red);
+}
 
+#segundo {
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+#segundo:hover, .registro:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+} 
+
+/* Aqui empieza la primera seccion */
 
 section{
     min-height: 100vh;
@@ -134,32 +155,7 @@ iframe {
     align-items: flex-end;
 }
 
-.registro, #segundo {
-    height: 40px;
-    width: 130px;   
-    border-radius: 20px;
-    border: none;
-    color: white;
-    font-size: 15px;
-    justify-content: center;
-}
-
-.registro {
-    background-color: var(--red);
-}
-
-#segundo {
-    background-color: rgb(255, 255, 255, 0.2);
-    padding: 10px 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-}
-
-#segundo:hover, .registro:hover {
-    background-color: white;
-    color: black;
-    transition: 0.5s;
-} 
-
+/* aqui empieza la segunda seccion */
 
 .modelos {
     display: flex;
@@ -173,7 +169,7 @@ iframe {
 .card {
     height: 500px;
     width: 340px;
-    background-color: rgb(190, 228, 207);
+    background-color: rgba(27, 32, 30, 0.075);
     border-radius: 50px;
 }
 #auto {
@@ -181,6 +177,11 @@ iframe {
     height: 300px;
     width: 100%;
 }
+
+
+
+
+
 footer {
     height: 200px;
     width: 100%;
@@ -190,3 +191,5 @@ footer {
 .compra {
     background-color: rgb(0, 0, 2, 0.5);
 }
+
+/* intentar que al presionar el botono start se oscurezca la pantalla de fondo y envie a primera seccion  */
