@@ -56,13 +56,33 @@ nav a:hover {
 }
 
 .formulario {
-    height: 100%;
+   
+}
+
+form {
+    height: 90%;
     width: 30%;
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
-    padding-top: 8px;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding-top: 10px;
 }
+
+input {
+    height: 27px;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+}
+
+input, .registro {
+    margin: 25px 0;
+}
+
+
+
+
 
 section{
     min-height: 100vh;
