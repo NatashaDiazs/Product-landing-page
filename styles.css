@@ -156,15 +156,26 @@ iframe {
 }
 
 /* aqui empieza la segunda seccion */
-    h2 {
-        text-align: center;
-        padding-top: 30px;
-        font-size: 50px;
+h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
     }
+
+.tarjeta {
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--red);
+    border: none;
+    align-content: center;
+}
+
 .modelos {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    text-align: center;
     align-content: flex-start;
     padding-top: 30px;
     gap: 30px;
