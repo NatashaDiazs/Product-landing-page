@@ -5,7 +5,7 @@
 
 :root {
     --red:rgba(177, 132, 132, 0.884);
-    --secondary-color: var(black);
+    --boton: rgba(19, 18, 18, 0.15);
 }
 
 html {
@@ -164,7 +164,7 @@ h2 {
 
 .tarjeta {
     height: 40px;
-    width: 50px;
+    width: 80px;
     border-radius: 10px;
     color: white;
     background-color: var(--red);
@@ -184,7 +184,7 @@ h2 {
 .card {
     height: 500px;
     width: 340px;
-    background-color: rgba(27, 32, 30, 0.075);
+    background-color: var(--boton);
     border-radius: 50px;
 }
 #auto {
