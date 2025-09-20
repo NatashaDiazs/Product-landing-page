@@ -159,7 +159,7 @@ iframe {
 /* aqui empieza la segunda seccion */
 h2 {
     text-align: center;
-    padding-top: 30px;
+    padding: 30px 0;
     font-size: 50px;
     }
   
@@ -173,7 +173,7 @@ h2 {
 }
 
 .card {
-    height: 500px;
+    height: 680px;
     width: 340px;
     background-color: rgb(0, 0, 0, 0.9);
     border-radius: 50px;
@@ -193,11 +193,15 @@ h2 {
 
 #auto {
     position: relative;
-    height: 300px;
+    height: 350px;
     width: 100%;
+    background-color: red;
 }
 
-
+#auto1 {
+    background-color: red;
+    margin-top: 45px;
+}
 
 
 
@@ -207,7 +211,7 @@ footer {
     background-color: black;
 }
 
-.compra {
+#compra {
     background-color: rgb(0, 0, 2, 0.5);
 }
 
