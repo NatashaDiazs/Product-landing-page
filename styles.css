@@ -195,15 +195,22 @@ h2 {
     position: relative;
     height: 350px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 #auto1 {
-    background-color: red;
+    /* background-color: red; */
     margin-top: 45px;
 }
 
+#carName {
+    font-size: 22px;
+}
 
+#context1 {
+    margin-top: 45px;
+
+}
 
 footer {
     height: 200px;
