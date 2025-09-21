@@ -90,6 +90,7 @@ input, .registro {
     font-size: 15px;
     justify-content: center;
     transition: 0.5s;
+    transition-timing-function: ease;
 }
 
 .registro {
@@ -112,6 +113,8 @@ input, .registro {
     font-size: 15px;
     background-color: rgb(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(41, 41, 41, 0.1);
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
 
 #segundo:hover, .registro:hover, .botones1:hover {
