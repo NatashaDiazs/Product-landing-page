@@ -211,6 +211,16 @@ h2 {
     margin-top: 45px;
 
 }
+.colores {
+    display: flex;
+    flex-direction: row;
+}
+
+#red, #blue, #white, #black {
+    border-radius: 50%;
+    width:;
+    height:;
+}
 
 footer {
     height: 200px;
