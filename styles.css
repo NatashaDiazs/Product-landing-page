@@ -214,6 +214,7 @@ h2 {
 .colores {
     display: flex;
     flex-direction: row;
+    background-color: red;
 }
 
 #red, #blue, #white, #black {
