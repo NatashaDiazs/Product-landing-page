@@ -89,21 +89,32 @@ input, .registro {
     color: white;
     font-size: 15px;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .registro {
     background-color: var(--red);
-    transition: 0.5s;
 }
 
 #segundo {
     background-color: rgb(255, 255, 255, 0.2);
     padding: 10px 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    transition: 0.5s;
 }
 
-#segundo:hover, .registro:hover {
+.botones1 {
+    height: 40px;
+    width: 130px; 
+    border-radius: 24px;
+    color: white;
+    border: none;
+    align-content: center;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(41, 41, 41, 0.1);
+}
+
+#segundo:hover, .registro:hover, .botones1:hover {
     background-color: white;
     color: black;
 } 
@@ -161,12 +172,6 @@ iframe {
 }
 
 /* aqui empieza la segunda seccion */
-h2 {
-    text-align: center;
-    padding: 30px 0;
-    font-size: 50px;
-    }
-  
 .modelos {
     display: flex;
     flex-flow: row wrap;
@@ -176,6 +181,12 @@ h2 {
     gap: 30px;
 }
 
+h2 {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 50px;
+    }
+
 .card {
     height: 690px;
     width: 340px;
@@ -183,22 +194,14 @@ h2 {
     border-radius: 50px;
 }
 
-.tarjeta {
-    height: 40px;
-    width: 130px; 
-    border-radius: 24px;
-    color: white;
-    border: none;
-    align-content: center;
-    font-size: 15px;
-    background-color: rgb(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(41, 41, 41, 0.1);
+#carName {
+    font-size: 22px;
 }
 
 #auto {
     position: relative;
-    height: 350px;
-    width: 100%;
+    height: 300px;
+    width: 90%;
     /* background-color: red; */
 }
 
@@ -207,24 +210,7 @@ h2 {
     margin-top: 45px;
 }
 
-#carName {
-    font-size: 22px;
-}
-
-#context1 {
-    margin-top: 45px;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-}
-
-#info {
-    padding: 20px;
-}
-
-.colores {
+.carColores {
     width: 220px;
     height: 50px;
     display: flex;
@@ -241,6 +227,7 @@ h2 {
 
 #red:hover, #blue:hover, #white:hover, #black:hover {
     scale: 1.2;
+    cursor: pointer;
 }
 
 #red {
@@ -258,6 +245,39 @@ h2 {
 #black {
     background-color: var(--black);
 }
+
+#CarInfo {
+    padding: 10px 20px;
+}
+
+.icons svg {
+    padding: 2px;
+    margin: 5px;
+}
+
+.icons svg:hover {
+    scale: 1.2;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+
+
+
 
 footer {
     height: 200px;
