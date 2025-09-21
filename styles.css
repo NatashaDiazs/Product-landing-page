@@ -4,8 +4,12 @@
 }
 
 :root {
-    --red:rgba(177, 132, 132, 0.884);
+    --red:rgba(212, 90, 90, 0.884);
     --boton: rgba(19, 18, 18, 0.15);
+    --red1: rgba(236, 39, 32, 0.808);
+    --blue: rgb(81, 96, 121);
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
 }
 
 html {
@@ -173,7 +177,7 @@ h2 {
 }
 
 .card {
-    height: 680px;
+    height: 690px;
     width: 340px;
     background-color: rgb(0, 0, 0, 0.9);
     border-radius: 50px;
@@ -211,16 +215,43 @@ h2 {
     margin-top: 45px;
 
 }
+#info {
+    padding: 20px;
+}
+
 .colores {
+    width: 220px;
+    height: 50px;
     display: flex;
-    flex-direction: row;
-    background-color: red;
+    /* background-color: red; */
 }
 
 #red, #blue, #white, #black {
     border-radius: 50%;
-    width:;
-    height:;
+    width: 40px;
+    height: 40px;   
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+}
+
+#red:hover, #blue:hover, #white:hover, #black:hover {
+    scale: 1.2;
+}
+
+#red {
+    background-color: var(--red1);
+}
+
+#blue {
+    background-color: var(--blue);
+}
+
+#white {
+    background-color: var(--white);
+}
+
+#black {
+    background-color: var(--black);
 }
 
 footer {
