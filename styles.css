@@ -75,13 +75,13 @@ input {
     background-color: transparent;
 }
 
-input, .registro {
+input, #registro {
     margin: 25px 0;
 }
 
 /* estos son los botones, configuracion */
 
-.registro, #botones {
+#registro, #botones {
     height: 40px;
     width: 130px;   
     border-radius: 20px;
@@ -93,7 +93,7 @@ input, .registro {
     transition-timing-function: ease;
 }
 
-.registro {
+#registro {
     background-color: var(--red);
 }
 
@@ -117,7 +117,7 @@ input, .registro {
     transition-timing-function: ease;
 }
 
-#botones:hover, .registro:hover, .botones1:hover {
+#botones:hover, #registro:hover, .botones1:hover {
     background-color: white;
     color: black;
 } 
