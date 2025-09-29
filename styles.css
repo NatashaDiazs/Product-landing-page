@@ -75,13 +75,13 @@ input {
     background-color: transparent;
 }
 
-input, #registro {
+input, #BotonRegistro {
     margin: 25px 0;
 }
 
 /* estos son los botones, configuracion */
 
-#registro, #botones {
+#BotonRegistro, .botones {
     height: 40px;
     width: 130px;   
     border-radius: 20px;
@@ -93,11 +93,11 @@ input, #registro {
     transition-timing-function: ease;
 }
 
-#registro {
+#BotonRegistro {
     background-color: var(--red);
 }
 
-#botones {
+.botones {
     background-color: rgb(255, 255, 255, 0.2);
     padding: 10px 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -117,7 +117,7 @@ input, #registro {
     transition-timing-function: ease;
 }
 
-#botones:hover, #registro:hover, .botones1:hover {
+.botones:hover, #BotonRegistro:hover, .botones1:hover {
     background-color: white;
     color: black;
 } 
@@ -161,7 +161,7 @@ p {
     font-size:medium;
 }
 
-.botones {
+.contenedor {
     display: flex;
     justify-content: space-around;
     width: 90%;
@@ -203,7 +203,7 @@ h2 {
     border-radius: 50px;
 }
 
-#carName {
+.carName {
     font-size: 22px;
 }
 
