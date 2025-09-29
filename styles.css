@@ -207,7 +207,7 @@ h2 {
     font-size: 22px;
 }
 
-#auto {
+.auto {
     position: relative;
     height: 300px;
     width: 90%;
@@ -226,7 +226,7 @@ h2 {
     /* background-color: red; */
 }
 
-#red, #blue, #white, #black {
+.red, .blue, .white, .black {
     border-radius: 50%;
     width: 40px;
     height: 40px;   
@@ -234,28 +234,28 @@ h2 {
     transition-duration: 0.3s;
 }
 
-#red:hover, #blue:hover, #white:hover, #black:hover {
+.red:hover, .blue:hover, .white:hover, .black:hover {
     scale: 1.2;
     cursor: pointer;
 }
 
-#red {
+.red {
     background-color: var(--red1);
 }
 
-#blue {
+.blue {
     background-color: var(--blue);
 }
 
-#white {
+.white {
     background-color: var(--white);
 }
 
-#black {
+.black {
     background-color: var(--black);
 }
 
-#CarInfo {
+.CarInfo {
     padding: 10px 20px;
 }
 
