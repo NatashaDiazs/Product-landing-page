@@ -36,7 +36,7 @@ nav {
     width: 40%;
 }
 
-ul {
+.nav-bar ul {
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -284,7 +284,9 @@ h2 {
 
 
 
-
+#compra {
+    background-color: rgb(0, 0, 2, 0.5);
+}
 
 
 
@@ -294,8 +296,22 @@ footer {
     background-color: black;
 }
 
-#compra {
-    background-color: rgb(0, 0, 2, 0.5);
+#about {
+    display: flex;
+}
+ 
+.caja p {
+    padding: 0;
+}
+
+.caja {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 300px;
+    height: 100%;
+    padding: 0;
 }
 
 /* intentar que al presionar el botono start se oscurezca la pantalla de fondo y envie a primera seccion  */
