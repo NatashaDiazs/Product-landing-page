@@ -306,17 +306,23 @@ footer {
  
 
 .caja {
-    height: 150px;
+    height: 180px;
     width: 300px;
     color: white;
     display: flex;
     flex-direction: column;
-    background-color: red;
+    /* background-color: red; */
     padding: 0;
+}
+
+h3 {
+    padding-bottom: 0;
 }
 
 .caja ul {
     padding: 0;
 }
+
+
 
 /* intentar que al presionar el botono start se oscurezca la pantalla de fondo y envie a primera seccion  */
